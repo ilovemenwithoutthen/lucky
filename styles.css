@@ -1,0 +1,67 @@
+body {
+    background-color: #f8f9fa; /* Light background color */
+    font-family: Arial, sans-serif; /* Font style */
+}
+
+.container {
+    max-width: 600px; /* Maximum width of the container */
+    margin: auto; /* Center the container */
+    padding: 20px; /* Padding around the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    background-color: #ffffff; /* White background for the container */
+}
+
+h1 {
+    text-align: center; /* Center the main heading */
+    color: #343a40; /* Dark text color */
+}
+
+h3 {
+    margin-top: 20px; /* Space above the subheading */
+    color: #495057; /* Slightly lighter dark color */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Space below the form group */
+}
+
+input[type="text"] {
+    width: 100%; /* Full width for the input box */
+    padding: 10px; /* Padding inside the input box */
+    border: 1px solid #ced4da; /* Border color */
+    border-radius: 4px; /* Rounded corners for the input box */
+}
+
+button {
+    width: 100%; /* Full width for buttons */
+    padding: 10px; /* Padding inside buttons */
+    margin-top: 10px; /* Space above buttons */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+button:hover {
+    opacity: 0.8; /* Slightly transparent on hover */
+}
+
+.list-group-item {
+    background-color: #e9ecef; /* Light background for list items */
+    border: 1px solid #ced4da; /* Border color for list items */
+    margin-bottom: 5px; /* Space between list items */
+}
+
+#selectedName {
+    font-size: 2em; /* Large font size for selected name */
+    color: red; /* Red text color for selected name */
+    margin-top: 20px; /* Space above the selected name */
+    text-align: center; /* Center the selected name */
+}
+
+#remainingCount {
+    text-align: center; /* Center the remaining count */
+    margin-top: 10px; /* Space above the remaining count */
+    font-weight: bold; /* Bold text for emphasis */
+}
